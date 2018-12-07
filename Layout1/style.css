@@ -1,5 +1,27 @@
-body,html{
+/* body,html{
     margin:0px;
     width:100%;
-    height:100%
+    height:100%;
+}
+.whole{
+    display:grid;
+    grid-template-columns: repeat(10,100px);
+    grid-template-rows: 100px;
+    width:100%;
+    height:100%;
+    border:5px solid red;
+}
+.whole > div {
+    width:100%;
+    height:100%;
+    border:5px solid red;
+    background:blue;
+} */
+.a{
+    width: 0px;
+    height:0px;
+    
+    border-top: 100px solid yellow;
+    border-right: 10px solid transparent;
+    border-left:10px solid blue;
 }
