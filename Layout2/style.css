@@ -36,8 +36,26 @@ body,html{
     justify-items: center;
     grid-column:2/4;
 }
+.c{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
 .d{
+    display: grid;
+    align-items: center;
+    justify-items: center;
     grid-column:1/3;
+}
+.e{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.f{
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 @media screen and (max-width:500px){
     .layer{
