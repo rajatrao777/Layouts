@@ -25,7 +25,15 @@ body,html{
     height:100%;
     border: 1px solid black;
 }
-.b{
+.a{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.b{ 
+    display: grid;
+    align-items: center;
+    justify-items: center;
     grid-column:2/4;
 }
 .d{
