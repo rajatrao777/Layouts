@@ -57,7 +57,7 @@ body,html{
     align-items: center;
     justify-items: center;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:999px){
     .layer{
         display:grid;
         grid-template-columns: 1fr;
