@@ -1,0 +1,9 @@
+.part1{
+    position: absolute;
+    
+    border:20px solid yellow;
+    border-radius:90%; 
+    width:70px;
+    height:250px;
+  
+}
