@@ -1,14 +1,31 @@
 .part1{
+    padding-left:10px; 
     position: absolute;
+    left:50px;
     border:30px solid yellow;
-    border-radius:150%; 
-    width:90px;
-    height:300px;
+    border-radius:220%; 
+    width:45px;
+    height:350px;
     border-bottom-left-radius: 0%;
     /* border-bottom-right-radius: 50px; */
     border-right-color: transparent;
     border-bottom-style: none;
     border-top-style: solid;
     border-top-right-radius:45%;
+    
+}
+.part2{
+    padding-left:10px; 
+    position: absolute;
+    left:130px;
+    border:30px solid yellow;
+    border-radius:220%; 
+    width:15px;
+    height:300px;
+    border-bottom-right-radius: 0%;
+    border-left-color: transparent;
+    border-bottom-style: none;
+    border-top-style: solid;
+    border-top-left-radius:45%;
     
 }
