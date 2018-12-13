@@ -1,0 +1,33 @@
+.part1{
+    position: relative;
+    width:0px;
+    height: 0px;
+    top:157px;
+    left:205px;
+    border-left:15px solid transparent;
+    border-bottom:100px solid silver;
+    border-right:15px solid transparent;
+    transform: rotateZ(-120deg);
+}
+.part2{
+    position: relative;
+    width:0px;
+    height: 0px;
+    top:-28px;
+    left:255px;
+    border-left:15px solid transparent;
+    border-bottom:100px solid silver;
+    border-right:15px solid transparent;
+    transform: rotateZ(0deg);
+}
+.part3{
+    position: relative;
+    width:0px;
+    height: 0px;
+    top:-43px;
+    left:305px;
+    border-left:15px solid transparent;
+    border-bottom:100px solid silver;
+    border-right:15px solid transparent;
+    transform: rotateZ(120deg);
+}
