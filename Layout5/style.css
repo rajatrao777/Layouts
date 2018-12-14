@@ -1,3 +1,7 @@
+body{
+    
+    background: black;
+}
 .part1{
     position: relative;
     width:0px;
@@ -47,7 +51,7 @@
     height:100px;
     top:-247px;
     left:269px;
-    border: 1px solid #e8e2db;
+    border: 1px solid black;
 }
 .part6{
     position: relative;
@@ -55,7 +59,7 @@
     height:99px;
     top:-271px;
     left:224px;
-    border: 1px solid #e8e2db;
+    border: 1px solid black;
     transform: rotateZ(61deg);
 }
 .part7{
@@ -64,15 +68,19 @@
     height:99px;
     top:-372px;
     left:313px;
-    border: 1px solid #e8e2db;
+    border: 1px solid black;
     transform: rotateZ(-61deg);
 }
 .part8{
     position: absolute;
-    width:200px;
-    height:200px;
-    top:82px;
-    left:175px;
+    width:205px;
+    height:205px;
+    top:80px;
+    left:170px;
     border-radius: 50%;
-    border: 5px solid #e8e2db;
+    border: 5px solid #bcbab8;
+}
+.part9{
+    position: absolute;
+    
 }
