@@ -41,3 +41,38 @@
     border-top:25px solid silver;
     border-right:15px solid transparent;
 }
+.part5{
+    position: relative;
+    width:0px;
+    height:100px;
+    top:-247px;
+    left:269px;
+    border: 1px solid #e8e2db;
+}
+.part6{
+    position: relative;
+    width:0px;
+    height:99px;
+    top:-271px;
+    left:224px;
+    border: 1px solid #e8e2db;
+    transform: rotateZ(61deg);
+}
+.part7{
+    position: relative;
+    width:0px;
+    height:99px;
+    top:-372px;
+    left:313px;
+    border: 1px solid #e8e2db;
+    transform: rotateZ(-61deg);
+}
+.part8{
+    position: absolute;
+    width:200px;
+    height:200px;
+    top:82px;
+    left:175px;
+    border-radius: 50%;
+    border: 5px solid #e8e2db;
+}
