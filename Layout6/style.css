@@ -1,0 +1,45 @@
+body{
+    background: black;
+}
+.container{
+    
+}
+.right-curve{
+    position:absolute;
+    width: 70px;
+    height:200px;
+    top:50px;
+    left:120px;
+    border-radius: 50%;
+    border:7px solid #51e3d4;
+    transform:rotateZ(30deg);
+}
+.left-curve{
+    position:absolute;
+    width: 70px;
+    height:200px;
+    top:50px;
+    left:120px;
+    border-radius: 50%;
+    border:7px solid #51e3d4;
+    transform:rotateZ(-30deg);
+}
+.mid-curve{
+    position:absolute;
+    width: 70px;
+    height:200px;
+    top:50px;
+    left:120px;
+    border-radius: 50%;
+    border:7px solid #51e3d4;
+    transform:rotateZ(90deg);
+}
+.mid-circle{
+    position:absolute;
+    width:0px;
+    height:0px;
+    top:135px;
+    left:141px;
+    border:20px solid #51e3d4;
+    border-radius: 50%;
+}
