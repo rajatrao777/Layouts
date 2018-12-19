@@ -18,7 +18,7 @@ body,html{
     align-self: flex-end;
 }
 .container .content-text3{
-    align-self: center;
+    align-self: flex-start;
     margin-left:auto;
     border: none;
 }
@@ -26,6 +26,14 @@ body,html{
     position: absolute;
     width:400px;
     height:500px;
+    top:100px;
+    right:50px;
+    
+}
+.container .content-text4{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
     right:50px;
     
 }
