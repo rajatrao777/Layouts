@@ -37,3 +37,9 @@ body,html{
     right:50px;
     
 }
+.container .content-text1{
+    display: flex;
+    position: absolute;
+    align-self: flex-start;
+    
+}
