@@ -1,0 +1,23 @@
+body{
+    background: #f79f24;
+}
+.body-stick-part1{
+    position:absolute;
+    width:10px;
+    height:200px;
+    top:200px;
+    left:600px;
+    border:1px solid black;
+    box-shadow:3px -1px 2px,1px 1px 1px;
+    background: #cb9b42;
+}
+.body-stick-part2{
+    position:absolute;
+    width:2px;
+    height:200px;
+    top:200px;
+    left:610px;
+    border:1px solid black;
+    box-shadow:3px -1px 2px,1px 1px 1px; 
+    background: #cb9b42;
+}
