@@ -10,6 +10,7 @@ body{
     border:1px solid black;
     box-shadow:3px -1px 2px,1px 1px 1px;
     background: #cb9b42;
+    z-index: 1;
 }
 .body-stick-part2{
     position:absolute;
@@ -20,4 +21,17 @@ body{
     border:1px solid black;
     box-shadow:3px -1px 2px,1px 1px 1px; 
     background: #cb9b42;
+    z-index: 1;
+}
+.body-stick-part3{
+    position: absolute;
+    width:16px;
+    height:35px;
+    top:165px;
+    left:596px;
+    border-radius: 50%;
+    border:3px solid black;
+    border-bottom-color: transparent;
+    box-shadow: 2px 2px 1px,1px -1px 1px;
+    background: #ff0000;
 }
