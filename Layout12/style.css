@@ -65,13 +65,13 @@ button {
 }
 .list-items-content{
     align-self: center;
-    padding-left:30px;
+    padding-left:40px;
     padding-top:5px;
     list-style: none;
     outline: none;
     border: none;
 }
-.post_photo{
+.button_content{
     padding-left:10px;
     padding-right:10px;
     padding-top:3px;
@@ -83,6 +83,13 @@ button {
     border-radius: 20px;
     outline: none;
 }
-.post_photo:focus,.post_photo:hover{
+.button_content:focus,.button_content:hover{
     outline: 0;
+}
+
+.more_content{
+    box-shadow: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
 }
