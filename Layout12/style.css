@@ -52,6 +52,7 @@ a{
     width:100%;
     padding-left:5px;
     padding-bottom:5px;
+    margin-right:10px;
     border: none;
     box-shadow: none;
     color:black;
@@ -78,18 +79,25 @@ a{
     color:black;
 }
 .list-items-content{
-    align-self: center;
     padding-left:35px;
     padding-top:5px;
     list-style: none;
     outline: none;
     border: none;
 }
+.list-items-content-button{
+    padding-left:35px;
+    padding-top:0px;
+    list-style: none;
+    outline: none;
+    border: none;
+}
 .button_content{
-    padding-left:10px;
+    width:110px;
+    height:30px;
+    /* padding-left:10px;
     padding-right:10px;
-    padding-top:-5px;
-    padding-bottom:3px;
+    padding-bottom:3px; */
     box-shadow: none;
     background-color: transparent;
     border: 3px solid black; 
