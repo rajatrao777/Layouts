@@ -1,6 +1,9 @@
 button {
     cursor: pointer;
 }
+body{
+    margin:0px;
+}
 a{
     text-decoration: none;
     color:black;
@@ -8,30 +11,31 @@ a{
 .top-row{
     display: flex;
     position:fixed;
-    /* width: 100%; */
+    width: 100%;
 }
 .logo{
     display: flex;
     align-self:flex-start;
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     padding-top:10px;
-    flex:1;
+    
 }
 .splash{
-    align-self:center;
     padding-left:20px;
-    padding-top:5px;
+    padding-top:20px;
     font-weight:700;
     font-family: sans-serif;
+}
+.form-search-box{
+    padding-top:8px;
+    width:400px;
 }
 .search_box{
     display: flex;
     margin-top:5px; 
     padding-top:2px;
-    width:350px;
     margin-left:30px;
-    align-self: center;
     border: 2px solid black;
     border-radius: 20px;
 }  
@@ -42,10 +46,12 @@ a{
     outline: none;
 }
 .search_box_content{
-    width:270px;
-    padding-left:10px;
-    padding-top:7px;
-    padding-bottom:7px;
+    display: flex;
+    flex-grow:1;
+    height:30px;
+    width:100%;
+    padding-left:5px;
+    padding-bottom:5px;
     border: none;
     box-shadow: none;
     color:black;
@@ -56,7 +62,7 @@ a{
 }
 
 .search_image{
-    padding: 5px 0px 5px 5px;
+    
     margin-left:5px;
     width:12px;
     height:12px;
@@ -82,7 +88,7 @@ a{
 .button_content{
     padding-left:10px;
     padding-right:10px;
-    padding-top:3px;
+    padding-top:-5px;
     padding-bottom:3px;
     box-shadow: none;
     background-color: transparent;
