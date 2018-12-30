@@ -1,0 +1,53 @@
+body{
+    background: black;
+}
+.bar--bottompart{
+    position: absolute;
+    left:187px;
+    top:342px;
+    width:0px;
+    height:0px;
+    border-left:20px solid transparent;
+    border-top: 60px solid #cb0101;
+    transform: rotateZ(-90deg);
+}
+.bar--bottomcurve{
+    position: absolute;
+    left:174px;
+    top:349px;
+    width:40px;
+    height:80px;
+    border-radius: 50%;
+    border-left:5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-right: 8px solid black;
+    transform: rotateZ(-107deg);
+}
+.bar--left{
+    position: absolute;
+    left:167px;
+    top:80px;
+    width:58px;
+    height:285px;
+    background:#cb0101;
+}
+.bar--middle{
+    position: absolute;
+    top:80px;
+    left:219px;
+    width:58px;
+    height:288px;
+    background:red;
+    box-shadow: 5px 5px 20px black,-5px 5px 20px black;
+    transform: skewX(20deg);
+    z-index: 1;
+}
+.bar--right{
+    position: absolute;
+    top:80px;
+    left:272px;
+    width:58px;
+    height:287px;
+    background:#cb0101;
+}
