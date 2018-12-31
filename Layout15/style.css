@@ -1,5 +1,4 @@
-
-.part1{
+.logo--quarterone{
     position: absolute;
     top:166px;
     left:166px;
@@ -9,7 +8,16 @@
     border-radius: 90px 0 0 0;
     transform: rotateZ(0deg);
 }
-.part3{
+.logo--outercirclepart{
+    position: absolute;
+    top:100px;
+    left:100px;
+    width: 200px;
+    height: 200px;
+    border: 60px solid black;
+    border-radius: 50%;
+}
+.logo--quarterthree{
     position: absolute;
     top:261px;
     left:261px;
@@ -19,7 +27,7 @@
     border-radius: 90px 0 0 0;
     transform: rotateZ(-180deg);
 }
-.part4{
+.logo--innercirclepart{
     position: absolute;
     top:162px;
     left:162px;
@@ -28,7 +36,7 @@
     border-radius: 50%;
     border:4px solid #929aab;
 }
-.part5{
+.logo--horizontalpart{
     position: absolute;
     top:258px;
     left:163px;
@@ -36,7 +44,7 @@
     height:3px;
     background: #929aab;
 }
-.part6{
+.logo--verticalpart{
     position: absolute;
     top:165px;
     left:258px;
@@ -44,7 +52,7 @@
     height:192px;
     background: #929aab;
 }
-.part7{
+.logo--outercircleborder{
     position: absolute;
     top:100px;
     left:100px;
@@ -53,7 +61,7 @@
     border-radius: 50%;
     border:4px solid #929aab;
 }
-.caption1{
+.logo--caption-letter-B{
     position: absolute;
     top:145px;
     left:142px;
@@ -63,7 +71,7 @@
     transform: rotateZ(-51deg);
     font-family: Arial, Helvetica, sans-serif;
 }
-.caption2{
+.logo--caption-letter-M{
     position: absolute;
     top:100px;
     left:235px;
@@ -73,7 +81,7 @@
     transform: rotateZ(0deg);
     font-family: Arial, Helvetica, sans-serif;
 }
-.caption3{
+.logo--caption-letter-W{
     position: absolute;
     top:152px;
     left:334px;
@@ -82,13 +90,4 @@
     color:white;
     transform: rotateZ(53deg);
     font-family: Arial, Helvetica, sans-serif;
-}
-.part2{
-    position: absolute;
-    top:100px;
-    left:100px;
-    width: 200px;
-    height: 200px;
-    border: 60px solid black;
-    border-radius: 50%;
 }
