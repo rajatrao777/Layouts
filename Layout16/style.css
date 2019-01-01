@@ -1,0 +1,59 @@
+@font-face{
+    font-family:CircularStd;
+    src:url("asset/circular-std-book-cufonfonts/CircularStd-Book.otf");
+}
+/* body{
+    width:100%;
+} */
+/* .container{
+    width:976px;
+    max-width: 100%;
+} */
+.header--row{
+    display: flex;
+    flex:0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+.content--details{
+    margin:20px 15px;
+    text-decoration: none;
+    color: #080957;
+    font-size:14px;
+    font-family: CircularStd;
+}
+.title{
+    margin:15px;
+    color: #080957;
+}
+.header{
+    display: flex;
+}
+.title--logo{
+    
+    width:100px;
+    height: 27px;
+}
+.content{
+    
+    margin-left:auto;
+}
+.content-button{
+    margin-top:-10px;
+    align-self: flex-end;
+}
+.button--start{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+    width: 140px;
+    height:40px;
+    border-radius: 4px;
+    color:white;
+    border-color: transparent;
+    font-family: CircularStd;
+    font-size: 15px;
+    background-color:#13abc4;
+}
